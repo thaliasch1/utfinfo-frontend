@@ -1,34 +1,47 @@
 # UTFInfo
-### Neste repositório você encontra o código para o sistema Front-end, do projeto <b>UFTINFO: Plataforma web para exibição de mídias informátivas.</b>
+In this repository you will find the code for the Front-end system of the project:
 
-* Para rodar o projeto é preciso ter o <b>Node</b> Instalado em sua máquina: https://nodejs.org/en/download/
+ <b>UFTINFO: Web platform for displaying informational media.</b>
+
+## Dependecies
+
+* Node JS - https://nodejs.org/en/download/
+
+## Installation 
+
+```bash
+$ git clone https://github.com/thaliasch1/utfinfo-frontend.git
+```
 
 
-## Front-end
+## Configuration
 
-Após clonar o projeto, você pode encontra o arquivo <b>.env</b> na raiz do projeto, onde está localizado as variáveis de ambiente;
-Neste arquivo é preciso atualizar a variavel BASE_URL, com a url que está rodando o back-end, geralmente: http://localhost:3000
+After cloning the project, you can find the .env file in the project root, where the environment variables are located; In this file it is necessary to update the variable BASE_URL, with the url that is running the back-end, generally: http://localhost:3000
 
-Local: 
+In the .env file update: 
+
+
+Running local: 
+```bash
+BASE_URL="http://localhost:3000"
+```
+
+To run on the server use: 
 ```bash
 BASE_URL="http://totens.td.utfpr.edu.br:3000"
 ```
 
-Servidor: 
-```bash
-BASE_URL="http://totens.td.utfpr.edu.br:3000"
-```
+### Running
 
-### Como rodar o front-end
-
-Primeiro atualize os pacotes:
+First update the packages:
 
 ```bash
 npm i
 ```
-e então rode a aplicação:
+then run the application:
 ```bash
 npm run dev
 ```
-Então é possivel acessar o projeto pela URL gerada automaticamente exibida no terminal, geralmente http://localhost:3001
+
+Then it is possible to access the project through the automatically generated URL displayed in the terminal, usually http://localhost:3001
 
